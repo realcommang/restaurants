@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>잠실 맛집</title> 
+        <link rel="stylesheet" href="../css/jamsil.css">       
+    </head>
+    <body id="target">
+        <script>
+            function proud() {
+                alert('잠실은 롯데타워가 유명합니다');
+            }
+
+            function colorChange() {
+                document.getElementById("target").style.backgroundColor = 'pink';
+            }
+
+        </script>
+        <header>
+            <h2>잠실 맛집</h2>
+            <input type="button" onclick="proud()" value="잠실의 자랑" id="buttn">
+        </header>
+        <nav class="restaurant">
+            <ul class="list">
+                <li><a href="http://naver.me/FBwDJzNX" class="res">1. 짱꼬집(바로가기)</a></li>
+                <li><a href="http://naver.me/5vIYIxVO" class="res">2. 해주냉면(바로가기)</a></li>
+            </ul>
+        </nav>
+        <figure id="fig">
+            <img id="food1" src="../image/jamsil.jpg">
+            <img id="food1" src="../image/nangmyeon.jpg">
+            <figcaption>참고용 이미지:실제 가게 음식 아님</figcaption>
+        </figure>
+        <footer>
+            <a href="main.html" id="home">메인화면</a>    
+            <input type="button" onclick="colorChange()" value="핑크배경">
+        </footer>
+    </body>
+</html>

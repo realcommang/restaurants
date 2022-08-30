@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>신촌 맛집</title>
+        <link rel="stylesheet" href="../css/sinchon.css">
+    </head>
+    <body id="target">
+        <script>
+            function colorChange() {
+                document.getElementById("target").style.backgroundColor = 'pink';
+            }
+
+            function proud() {
+                alert('신촌은 연세대, 이화여대가 유명합니다');
+            }
+
+        </script>
+        <header>
+            <h2>신촌 맛집</h2>
+            <input type="button" onclick="proud()" value="신촌의 자랑" id="buttn">
+        </header>
+        <nav class="restaurant">
+            <ul class="list">
+                <li><a href="https://m.place.naver.com/share?id=1767701213&tabsPath=%2Fhome&appMode=detail" class="res">1. 카라멘야(바로가기)</a></li>
+                <li><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%9A%B0%EC%95%BC%EC%BC%80%EB%8F%84%EC%BF%84&oquery=%EC%8B%A0%EC%B4%8C%EB%A7%9B%EC%A7%91&tqi=hVQ83sprvmZss6HEi6VssssssKl-332212" class="res">2. 유야케도쿄(바로가기)</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img id="doncas" src="../image/doncas.jpg">
+            <img id="ramen" src="../image/ramen.jpg">
+            <figcaption>참고용 이미지:실제 가게 음식 아님</figcaption>
+        </figure>
+        <footer>
+            <a href="main.html" id="home">메인화면</a>
+            <input type="button" onclick="colorChange()" value="핑크배경">    
+        </footer>
+    </body>
+</html>

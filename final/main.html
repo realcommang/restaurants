@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>서울 핫플 맛집</title>
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+
+    <body>
+        <script>
+            function OnMouseIn(elem) {
+                elem.style.border = "5px solid black";
+            }
+
+            function OnMouseOut(elem) {
+                elem.style.border = "";
+            }
+        </script>
+        <header>
+           <h2 class="main">서울 핫플 맛집</h2> 
+        </header>
+        <nav>
+            <ul class="list">
+                <li><a href="sinchon.html" id="restaurant">신촌 맛집</a></li>
+                <li><a href="jamsil.html" id="restaurant">잠실 맛집</a></li>
+                <li><a href="wolgok.html" id="restaurant">월곡 맛집</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h2 class="main">서울 핫플 맛집을 알아보자</h2>
+                <img onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)" id="pig" src="../image/pig.jpg" width="30%" height="35%">
+                <p id="description">나는 맛집 탐방을 정말 좋아한다. 맛있는 음식을 먹으면 온몸에서 힘이난다.
+                    <br>과제를 위해서 웹페이지를 만들고 있지만, 사실은 나중에 맛집이 생각나지 않을때
+                    <br>찾아와서 참고하려고 한다. 틈틈이 업그레이드도 하고 싶다
+                </p>
+            </article>
+        </section>
+    </body>
+</html>

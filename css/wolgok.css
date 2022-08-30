@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(212, 128, 142);
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        background-color: white;
+    }
+}
+
+h2 {
+    border: 3px solid black;
+    margin-left: 40%;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(121, 62, 62);
+    width: 20%;
+    color: aliceblue;
+}
+
+#buttn {
+    margin-left: 48%;
+    margin-bottom: 8px;
+    background-color: brown;
+}
+
+.restaurant {
+    margin-left: 35%;
+    border: 3px solid black;
+    text-align: center;
+    width: 30%;
+    background-color: rgb(121, 62, 62);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.res {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+}
+
+figure {
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+img {
+    width: 380px;
+    height: 400px;
+}
